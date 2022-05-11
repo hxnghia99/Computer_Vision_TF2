@@ -107,7 +107,7 @@ class SimpleNetwork(object):
         for i in range(len(X_val)):
             if self.predict(X_val[i] == y_val[i]):
                 num_corrects += 1
-            return num_corrects/len(X_val)
+        return num_corrects/len(X_val)    
 
 
 #Apply for MNIST images
